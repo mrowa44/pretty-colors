@@ -1,0 +1,28 @@
+body {
+  font-family: 'San Francisco', 'SNFS Display', BlinkMacSystemFont, "Segoe UI", Roboto,
+  Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0;
+  border-top: 9px solid #333;
+}
+
+main {
+  max-width: 700px;
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 100px;
+  text-align: center;
+  color: #333;
+}
+
+.color {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  box-shadow: 0 20px 50px 0px rgba(0,0,0,0.25);
+}
+
+.description {
+  margin-top: 30px;
+}
