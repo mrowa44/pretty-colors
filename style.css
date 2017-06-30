@@ -34,12 +34,12 @@ h1 {
 }
 
 .description {
-  color: rgba(0,0,0,0.5);
+  color: rgba(0,0,0,0.25);
   font-weight: bold;
   margin: 0;
   padding: 10px;
 }
 
 .description--light {
-  color: rgba(255,255,255,0.3);
+  color: rgba(255,255,255,0.2);
 }
