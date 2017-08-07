@@ -5,141 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <title>Pretty colors</title>
+    <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
+    <script src="https://unpkg.com/react@15.3.1/dist/react.min.js"></script>
+    <script src="https://unpkg.com/react-dom@15.3.1/dist/react-dom.min.js"></script>
+    <script src="./script.js" type="text/babel"></script>
   </head>
   <body>
     <h1>
       <marquee behavior="alternate" scrollamount="25">xD</marquee>
     </h1>
-    <main>
-      <div class="color" style="background: #0467F0">
-        <p class="description">#0467F0</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #0478FE, #5557D6)">
-        <p class="description">#0478FE</p>
-        <p class="description">#5557D6</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #81FBB8, #28C76F)">
-        <p class="description">#81FBB8</p>
-        <p class="description">#28C76F</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #FFF6B7, #F6416C)">
-        <p class="description">#FFF6B7</p>
-        <p class="description">#F6416C</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #3D6BDE, #97B6FD)">
-        <p class="description">#3D6BDE</p>
-        <p class="description">#97B6FD</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #FDF203 10%, #D3FF01)">
-        <p class="description">#FDF203</p>
-        <p class="description">#D3FF01</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #25E2EB, #7F7EFD)">
-        <p class="description">#25E2EB</p>
-        <p class="description">#7F7EFD</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #F8659C 0%, #F8659C 50%, #763356 50%, #763356 100%);">
-        <p class="description">#F8659C</p>
-        <p class="description">#763356</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #3DE589 0%, #3DE589 50%, #232327 50%, #232327 100%);">
-        <p class="description">#3DE589 </p>
-        <p class="description description--light">#232327</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #d4fc79, #96e6a1)">
-        <p class="description">#D4FC79</p>
-        <p class="description">#96E6A1</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #cfd9df, #e2ebf0)">
-        <p class="description">#CFD9DF</p>
-        <p class="description">#E2EBF0</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #e0c3fc, #8ec5fc)">
-        <p class="description">#E0C3FC</p>
-        <p class="description">#8EC5FC</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #f093fb, #f5576c)">
-        <p class="description">#f093fb</p>
-        <p class="description">#f5576c</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #00f2fe, #4facfe)">
-        <p class="description">#00f2fe</p>
-        <p class="description">#4facfe</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #96fbc4, #f9f586)">
-        <p class="description">#96fbc4</p>
-        <p class="description">#f9f586</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #4481eb, #04befe)">
-        <p class="description">#4481eb</p>
-        <p class="description">#04befe</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #FFFEFF, #D7FFFE)">
-        <p class="description">#FFFEFF</p>
-        <p class="description">#D7FFFE</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #B7F8DB, #50A7C2)">
-        <p class="description">#B7F8DB</p>
-        <p class="description">#50A7C2</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #A445B2 0%, #D41872 50%, #FF0066 100%);">
-        <p class="description">#A445B2</p>
-        <p class="description">#D41872</p>
-        <p class="description">#FF0066</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #55E2B3, #11BFCA)">
-        <p class="description">#55E2B3</p>
-        <p class="description">#11BFCA</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #FC1F86 0%, #FC1F86 50%, #131A23 50%, #131A23 100%);">
-        <p class="description">#FC1F86</p>
-        <p class="description description--light">#131A23</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #00B966 0%, #00B966 50%, #283646 50%, #283646 100%);">
-        <p class="description">#00B966</p>
-        <p class="description description--light">#283646</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #DA1C3F 0%, #DA1C3F 50%, #232323 50%, #232323 100%);">
-        <p class="description">#DA1C3F</p>
-        <p class="description description--light">#232323</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #26B64E 0%, #26B64E 33%, #8C5AAF 33%, #8C5AAF 66%, #19202D 66%, #19202D 100%);">
-        <p class="description">#26B64E</p>
-        <p class="description">#8C5AAF</p>
-        <p class="description description--light">#19202D</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #C7E904 0%, #C7E904 50%, #242227 50%, #242227 100%);">
-        <p class="description">#C7E904</p>
-        <p class="description description--light">#242227</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #2ECDD5, #23BDC9);">
-        <p class="description">#2ECDD5</p>
-        <p class="description">#23BDC9</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #2ECDD5 0%, #2ECDD5 50%, #23BDC9 50%, #23BDC9 100%);">
-        <p class="description">#2ECDD5</p>
-        <p class="description">#23BDC9</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #FE9100, #FE6100)">
-        <p class="description">#FE9100</p>
-        <p class="description">#FE6100</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #5CC35C, #4AB24D)">
-        <p class="description">#5CC35C</p>
-        <p class="description">#4AB24D</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #A9B9C1, #638190)">
-        <p class="description">#A9B9C1</p>
-        <p class="description">#638190</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #638190, #2B3B42)">
-        <p class="description">#638190</p>
-        <p class="description description--light">#2B3B42</p>
-      </div>
-      <div class="color" style="background: linear-gradient(to bottom, #FD8800, #E40500)">
-        <p class="description">#FD8800</p>
-        <p class="description">#E40500</p>
-      </div>
-    </main>
+    <div id="root"></div>
   </body>
 </html>
